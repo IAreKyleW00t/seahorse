@@ -1,0 +1,17 @@
+/* TEAM * /
+    Team Lead: Kyle Colantonio
+    Contact: kyle10468@gmail.com
+
+    Team Member: Jeff Barto
+    Contact: bartorobjeff@gmail.com
+
+    Team Member: Michael Krixes
+    Contact: kixxes@gmail.com
+
+/* THANKS */
+    Yongjian Fu
+
+/* SITE */
+    Last update: 09/14/2016
+    Standards: HTML5, CSS3, PHP5, MySQL
+    Components: jQuery, Respond.js, Modernizr, Materialize, Cookie Consent, reCAPTCHA2
