@@ -10,8 +10,9 @@
 
 /* THANKS */
     Yongjian Fu
+    Google
 
 /* SITE */
-    Last update: 09/14/2016
-    Standards: HTML5, CSS3, PHP5, MySQL
-    Components: jQuery, Respond.js, Modernizr, Materialize, Cookie Consent, reCAPTCHA2
+    Last update: 11/29/2016
+    Standards: HTML5, CSS3, PHP7, MariaDB
+    Components: jQuery, Materialize, noUISlider

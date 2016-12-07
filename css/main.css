@@ -1,0 +1,123 @@
+/* CUSTOM */
+p {
+    line-height: 2rem;
+}
+.icon-block {
+    padding: 0 15px;
+}
+.material-icons {
+    font-size: inherit;
+}
+.dialog {
+    width: 30%;
+}
+.divider.large {
+    margin: 2em 0 2em 0;
+}
+
+/* HELPERS */
+.no-margin {
+    margin: 0 !important;
+}
+.no-padding {
+    padding: 0 !important;
+}
+.no-margin-top {
+    margin-top: 0 !important;
+}
+.no-padding-top {
+    padding-top: 0 !important;
+}
+.no-margin-bottom {
+    margin-bottom: 0 !important;
+}
+.no-padding-bottom {
+    padding-bottom: 0 !important;
+}
+
+/* BUTTONS */
+.btn-icon {
+    padding: 0 1rem;
+}
+.btn-nav {
+    padding: 0 20px;
+}
+
+/* OVERRIDE COLORS */
+.chips .chip.selected {
+    background-color: #9575cd;
+}
+.chips.focus {
+    border-bottom: 1px solid #9575cd;
+    box-shadow: 0 1px 0 0 #9575cd;
+}
+input:not([type]):focus:not([readonly]),
+input[type=text]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]),
+input[type=date]:focus:not([readonly]),
+input[type=datetime]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #9575cd;
+    box-shadow: 0 1px 0 0 #9575cd;
+}
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:focus:not([readonly]) + label,
+input[type=password]:focus:not([readonly]) + label,
+input[type=email]:focus:not([readonly]) + label,
+input[type=url]:focus:not([readonly]) + label,
+input[type=time]:focus:not([readonly]) + label,
+input[type=date]:focus:not([readonly]) + label,
+input[type=datetime]:focus:not([readonly]) + label,
+input[type=datetime-local]:focus:not([readonly]) + label,
+input[type=tel]:focus:not([readonly]) + label,
+input[type=number]:focus:not([readonly]) + label,
+input[type=search]:focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+    color: #9575cd;
+}
+.progress {
+    background-color: #d1c4e9;
+}
+.progress .indeterminate,
+.progress .determinate {
+    background-color: #9575cd;
+}
+
+/* NAVIGATION */
+nav ul a,
+nav .brand-logo,
+nav .material-icons {
+    color: #444;
+}
+
+/* PARALLAX */
+.parallax-container {
+    min-height: 640px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
+}
+.parallax-container .section {
+    width: 100%;
+}
+@media only screen and (max-width: 1200px) {
+    .dialog {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 15%;
+    }
+}
