@@ -13,6 +13,12 @@
     Google
 
 /* SITE */
+<<<<<<< HEAD
     Last update: 11/29/2016
     Standards: HTML5, CSS3, PHP7, MariaDB
     Components: jQuery, Materialize, noUISlider
+=======
+    Last update: 09/14/2016
+    Standards: HTML5, CSS3, PHP7, MariaDB
+    Components: jQuery, Materialize, Cookie Consent, reCAPTCHA2
+>>>>>>> origin/master
